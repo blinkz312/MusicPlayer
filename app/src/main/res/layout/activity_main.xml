@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/img"
             android:layout_width="match_parent"
             android:layout_height="400dp"
             tools:srcCompat="@tools:sample/avatars" />
@@ -43,13 +43,6 @@
                 android:layout_margin="10dp"
                 android:text="Pause" />
 
-            <Button
-                android:id="@+id/stopBtn"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_margin="10dp"
-                android:text="Stop" />
         </LinearLayout>
 
     </LinearLayout>
